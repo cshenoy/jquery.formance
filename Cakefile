@@ -22,7 +22,7 @@ build = (watch, callback) ->
         callback = watch
         watch = false
 
-    options = ['-j', 'lib/jquery.formance.js', '-c', 'src']
+    options = ['-b', '-j', 'lib/jquery.formance.js', '-c', 'src']
     options.unshift '-w' if watch
     run 'coffee', options, callback
 
