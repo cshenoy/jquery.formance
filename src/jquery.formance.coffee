@@ -3,7 +3,6 @@
     # AMD
     define [
       "jquery"
-      "widget"
     ], ($) ->
       factory $
   else if typeof module isnt "undefined" and module.exports?
